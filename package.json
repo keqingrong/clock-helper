@@ -1,0 +1,19 @@
+{
+  "name": "clock-helper",
+  "version": "0.0.0",
+  "description": "A clock helper for querying the time of startup and shutdown",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./example/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eventvwr",
+    "poweroff",
+    "shutdown",
+    "startup"
+  ],
+  "repository": "keqingrong/clock-helper",
+  "author": "Qingrong Ke <keqingrong@outlook.com> (https://keqingrong.github.io/)",
+  "license": "MIT"
+}
