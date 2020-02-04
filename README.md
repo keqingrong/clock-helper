@@ -37,7 +37,7 @@ const { getShutdownDateList } = require('clock-helper');
 
 ## TODO
 
-- [ ] Support for macOS
+- [x] Support for macOS/Linux
 - [ ] CLI
 - [ ] Add unit test cases
 
