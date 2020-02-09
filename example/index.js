@@ -7,7 +7,7 @@ const { formatDate } = require('../lib/utils');
 (async () => {
   try {
     const shutdownDateList = await getShutdownDateList();
-    console.log('Shutdoown history');
+    console.log('Shutdown history');
     console.log(shutdownDateList.map(item => formatDate(item)));
 
     const startupDateList = await getStartupDateList();
